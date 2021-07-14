@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* common style 
+--------------------- */
+.container{
+    margin-bottom:40px;
+
+}
+
+
+/* fist para
+------------- */
+
+
+.text{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #2D25A0 ;
+    margin: 0 auto;
+    padding: 30px;  
+    width: 95%;
+    /* height: 677px;
+  
+    justify-content: center;
+    padding-top: 240px;
+    margin-bottom: 30px; */
+ 
+
+}
+.banner img{
+ width:  100%;
+ height:90%;
+ padding-right: 40px;
+ 
+  
+ 
+}
+.copa-america{
+    padding-left: 150px;
+    
+}
+.first-para{
+  font-size:64px ;
+   color: #FFFFFF;
+    
+}
+.first-link{
+ text-decoration: none;
+ color: #FFFFFF;
+ height: 44px;
+ width: 168px;
+ font-size: 16px;
+ background:#E02C6D ;
+ padding: 12px 25px;
+ transition: 5s ease-in-out;
+}
+
+.first-link:hover{
+    transform: scale( 1.5), rotate(20deg) ;
+    background-color: #046228;
+     }
+
+
+/* middle
+----------- */
+/* .player-pic{
+    height: 474px; 
+    width:330px ;
+} */
+.middle-blog{
+   
+  align-items: center;
+  justify-content: center;
+}
+
+.player-pic img{
+   width:100%;
+   border-radius: 10px;
+    
+    
+}
+.player{
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+   margin-bottom: 20px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.players{
+
+   width: 85%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+
+}
+
+/* last-one and blog area 
+-------------------------*/
+.last-pic img{
+   width: 85%;
+   border-radius: 20px;
+}
+.last-blog-detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:0 auto;
+
+}
+.last-text{
+font-size: 48px;
+
+
+}
+.blog-title{
+   width: 469px;
+   height: 241px;
+    
+   margin: 0 auto;
+   padding-left: 10%;}
+
+.blog-title a{
+ text-decoration: none;
+ 
+}
+
+/* footer
+----------- */
+.footer{
+
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 85%;  
+     margin: 0 auto;
+    text-align: center;
+     
+}
+.footer-explain{
+    margin-top: 70px;
+}
+.footer-explain img{
+      
+     width: 50%;
+}
+.logo{
+    font-size: 20px;
+     
+}
