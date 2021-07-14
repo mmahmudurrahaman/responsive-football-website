@@ -112,15 +112,14 @@ first sction and blogs
    width: 85%;
    border-radius: 20px;
 }
- 
+.last-pic{
+     transition:5s  ease-in-out ;
+}
 
 .last-pic:hover{ 
-     
-    transition: 5s ease-in-out;
-    transform: scale(0.5) rotate(120deg);
-}
+      transform: scale(0.5) rotate(120deg);
+   }
     
-
 .last-one{
      background-image: url(Frame\ 57.jpg);
     background-repeat: no-repeat;
