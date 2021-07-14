@@ -1,17 +1,21 @@
+/* -----------------*#
+ common style 
+#$%--------------------- */
+
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 
-/* common style 
---------------------- */
+
 .container{
     margin-bottom:40px;
 
 }
 
 
-/* fist para
+/* --------------
+first sction and blogs 
 ------------- */
 
 
@@ -22,11 +26,7 @@ body{
     margin: 0 auto;
     padding: 30px;  
     width: 95%;
-    /* height: 677px;
-  
-    justify-content: center;
-    padding-top: 240px;
-    margin-bottom: 30px; */
+    
  
 
 }
@@ -34,10 +34,16 @@ body{
  width:  100%;
  height:90%;
  padding-right: 40px;
+ }
+ .banner{
+        transition: 5s  ease-in-out;
+ }
  
+
+ .banner:hover{ 
   
- 
-}
+     transform: scale(0.8) skew(-20deg);
+ }
 .copa-america{
     padding-left: 150px;
     
@@ -55,21 +61,21 @@ body{
  font-size: 16px;
  background:#E02C6D ;
  padding: 12px 25px;
- transition: 5s ease-in-out;
+ transition: 2s ease-in-out;
 }
 
-.first-link:hover{
+.first-link.first-link:hover{
     transform: scale( 1.5), rotate(20deg) ;
-    background-color: #046228;
+    background-color:yellowgreen;
      }
 
 
-/* middle
------------ */
-/* .player-pic{
-    height: 474px; 
-    width:330px ;
-} */
+/*------------------------*
+ middle-section-area
+ player- draft 
+*-------------------------- */
+ 
+
 .middle-blog{
    
   align-items: center;
@@ -98,12 +104,28 @@ body{
 
 }
 
-/* last-one and blog area 
+/*----------------------
+ last-one and blog area 
 -------------------------*/
+
 .last-pic img{
    width: 85%;
    border-radius: 20px;
 }
+ 
+
+.last-pic:hover{ 
+     
+    transition: 5s ease-in-out;
+    transform: scale(0.5) rotate(120deg);
+}
+    
+
+.last-one{
+     background-image: url(Frame\ 57.jpg);
+    background-repeat: no-repeat;
+     }
+
 .last-blog-detail{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,6 +149,7 @@ font-size: 48px;
  
 }
 
+ 
 /* footer
 ----------- */
 .footer{
@@ -149,3 +172,7 @@ font-size: 48px;
     font-size: 20px;
      
 }
+
+/* -----------
+footer end 
+---------------*/
